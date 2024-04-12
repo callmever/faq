@@ -1,0 +1,190 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+} */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+
+/* banner section start */
+
+.banner {
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/src/assets/image/helpdesk.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-title {
+  position: absolute;
+  top: 7rem;
+  left: 150px;
+}
+
+.banner-title h2{
+  color: white;
+  font-size: 40px;
+}
+
+.banner-main {
+  width: 85%;
+  height: 40vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.banner-main h1 {
+  color: white;
+}
+
+.search-box {
+  width: 40%;
+  height: 45px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  color: black;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+/* banner section end */
+
+
+/* FAQ section head start */
+
+.faq-header {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.faq-header h2 {
+  font-size: 30px;
+}
+
+.faq-slider {
+  display: flex;
+  height: 18rem;
+  width: 70%;
+  flex-direction: row;
+  margin-top: 4rem;
+  overflow: scroll;
+}
+
+.faq-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.cardbox {
+  width: 15rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.cardbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+} 
+
+.cardbox p {
+  position: absolute;
+  bottom: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: white;
+  width: 100%;
+}
+
+/* FAQ head section end */
+
+/* list of FAQ start */
+
+.faq-lists {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  min-height: 70vh;
+  margin-top: 5rem;
+}
+
+#lists-title {
+  margin-top: 3rem;
+}
+
+.faq-accordion {
+  width: 65%;
+  height: 50vh;
+  margin-top: 1.5rem;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: whitesmoke;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-bottom: 0.5px solid black;
+  outline: none;
+  font-size: 19px;
+}
+
+
+
+
+/* footer section start */
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
